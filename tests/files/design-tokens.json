@@ -61,6 +61,38 @@
         "type": "color"
       }
     },
+    "refrence": {
+      "strokeAlign": {
+        "value": "inside",
+        "type": "string"
+      },
+      "dashPattern": {
+        "value": "",
+        "type": "string"
+      },
+      "strokeCap": {
+        "value": "none",
+        "type": "string"
+      },
+      "strokeJoin": {
+        "value": "miter",
+        "type": "string"
+      },
+      "strokeMiterAngle": {
+        "value": 4,
+        "type": "number",
+        "unit": "degree"
+      },
+      "strokeWeight": {
+        "value": 1,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "stroke": {
+        "value": "{colors.blueblue}",
+        "type": "reference"
+      }
+    },
     "red 1px": {
       "strokeAlign": {
         "value": "inside",
@@ -121,8 +153,8 @@
         "unit": "pixel"
       },
       "stroke": {
-        "value": "rgba(64, 255, 186, 1)",
-        "type": "color"
+        "value": "{colors.green turquoise-blue}",
+        "type": "reference"
       }
     },
     "green 4 px gradient": {
@@ -365,12 +397,12 @@
     }
   },
   "colors": {
-    "green": {
+    "green turquoise-blue": {
       "category": "fill",
       "value": "rgba(64, 255, 186, 1)",
       "type": "color"
     },
-    "blue": {
+    "blueblue": {
       "category": "fill",
       "value": "rgba(4, 74, 255, 1)",
       "type": "color"
